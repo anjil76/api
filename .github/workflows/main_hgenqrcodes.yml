@@ -70,6 +70,6 @@ jobs:
           app-name: 'hgenqrcodes'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E00C27406DBF4EDBA5668B75CDAD070F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F5C93F913AFA4E05B8CF01186D82F877 }}
           sku: 'flexconsumption'
         
